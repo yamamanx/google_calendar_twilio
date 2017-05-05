@@ -1,0 +1,4 @@
+google-api-python-client==1.5.1
+pyCrypto==2.6.1
+twilio==6.0.0
+siplejson==3.8.2
