@@ -1,4 +1,4 @@
-# Google Calendar Twilio Call
+# Google Calendar Twilio Reminder
 
 - Googleカレンダーの予定をX時間前にTwilioで電話します。
 - Googleアカウントと電話する連絡先はkintoneで管理します。
