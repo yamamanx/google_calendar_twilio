@@ -2,7 +2,7 @@
 
 - Googleカレンダーの予定をX時間前にTwilioで電話します。
 - Googleアカウントと電話する連絡先はkintoneで管理します。
-- 設定など詳細はこちらの[http://www.yamamanx.com](ブログ)に書きます。
+- 設定など詳細はこちらの[ブログ](http://www.yamamanx.com/aws-polly-twilio-python-google-calendar-s3-kintone/)に書きます。
 - 以下、動かすための簡易説明です。
 
 
