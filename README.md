@@ -1,11 +1,9 @@
 # Google Calendar Twilio Call
 
-Googleカレンダーの予定をX時間前にTwilioで電話します。
-Googleアカウントと電話する連絡先はkintoneで管理します。
-
-設定など詳細はこちらのブログに書きます。
-
-以下、動かすための簡易説明です。
+- Googleカレンダーの予定をX時間前にTwilioで電話します。
+- Googleアカウントと電話する連絡先はkintoneで管理します。
+- 設定など詳細はこちらの[http://www.yamamanx.com](ブログ)に書きます。
+- 以下、動かすための簡易説明です。
 
 
 ## kintoneアプリの作成
@@ -23,14 +21,14 @@ Googleアカウントと電話する連絡先はkintoneで管理します。
 
 ## Googleカレンダー
 
-Google Developers ConsoleでCalendar V3 APIを発行してサービスアカウントを作ります。
-認証キーはjson形式にしてソースコードと同じフォルダに配置します。
-対象のカレンダーに作ったサービスアカウントに閲覧権限を設定します。
+- Google Developers ConsoleでCalendar V3 APIを発行してサービスアカウントを作ります。
+- 認証キーはjson形式にしてソースコードと同じフォルダに配置します。
+- 対象のカレンダーに作ったサービスアカウントに閲覧権限を設定します。
 
 
 ## AWS Lambda
 
-ソースコードをダウンロードして、requirements.txtに記載のパッケージをソースコードと同じフォルダにインストールしてzipで固めて、Lambdaにアップロードします。
+- ソースコードをダウンロードして、requirements.txtに記載のパッケージをソースコードと同じフォルダにインストールしてzipで固めて、Lambdaにアップロードします。
 
 
 ## AWS Lambdaに設定する環境変数
