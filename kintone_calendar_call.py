@@ -27,7 +27,8 @@ class KintoneCalendarCall(object):
     def get_regist(self):
         try:
             headers = {self.headers_key: self.api_key}
-            headers[self.basic_headers_key] = self.basic_headers_value
+            if self.basic_headers_value != '':
+                headers[self.basic_headers_key] = self.basic_headers_value
             response_record = requests.get(self.url + self.query , headers=headers)
             record_data = json.loads(response_record.text)
             logger.info(record_data)
@@ -37,4 +38,3 @@ class KintoneCalendarCall(object):
 
         except Exception as e:
             logger.error(traceback.format_exc(sys.exc_info()[2]))
-
