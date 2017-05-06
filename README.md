@@ -45,6 +45,7 @@ KINTONE_DOMAIN|kintoneのドメイン xxx.cybozu.com
 KINTONE_APP|kintoneのアプリの数字
 KINTONE_HEADERS_KEY|X-Cybozu-API-Token
 KINTONE_API_KEY|kintoneのAPIキー
+KINTONE_BASIC_HEADERS_KEY|Authorization
 KINTONE_BASIC_HEADERS_VALUE|kintoneベーシック認証のキー(Basic)で始まる
 DOMAIN|Googleのドメイン GSuiteは独自ドメイン、フリーアカウントはgmail.com
 GOOGLE_SERVICE_ACCOUNT_ID|GoogleのサービスアカウントID
