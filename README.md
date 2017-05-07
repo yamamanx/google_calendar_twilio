@@ -50,3 +50,5 @@ KINTONE_BASIC_HEADERS_VALUE|kintoneベーシック認証のキー(Basic)で始�
 DOMAIN|Googleのドメイン GSuiteは独自ドメイン、フリーアカウントはgmail.com
 GOOGLE_SERVICE_ACCOUNT_ID|GoogleのサービスアカウントID
 TWILIO_ACCOUNT_SID|TwilioのアカウントSID
+TWILIO_AUTH_TOKEN|Twilioのトークン
+TWILIO_FROM_NUMBER|Twilioの発信元電話番号
